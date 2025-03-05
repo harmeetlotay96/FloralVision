@@ -27,7 +27,7 @@ The dataset is publicly available via **TensorFlow datasets**.
 
 ## 📊 Results
 
-- Achieved **X% validation accuracy**, demonstrating effective **flower species classification**.
+- Achieved **80% validation accuracy**, demonstrating effective **flower species classification**.
 - Improved model generalization using **data augmentation**, reducing overfitting.
 - Successfully classified **five flower categories** using a **CNN-based deep learning model**.
 - Optimized training performance with **Adam optimizer** and **categorical cross-entropy loss**.
