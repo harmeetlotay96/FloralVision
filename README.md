@@ -25,23 +25,10 @@ The dataset is publicly available via **TensorFlow datasets**.
 - **Training & Optimization:** Utilizes **Adam optimizer** and **categorical cross-entropy loss**.
 - **Evaluation & Visualization:** Assesses performance using a validation set and plots accuracy/loss trends.
 
----
+## 📊 Results
 
-## 🚀 Getting Started
-
-### 🔧 Prerequisites
-
-Ensure you have the following installed:
-- Python 3.x
-- TensorFlow
-- Keras
-- Matplotlib
-- NumPy
-
-### 📥 Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/harmeetlotay96/tf_keras_cnn_flowers_classification.git
-   ```
+- Achieved **X% validation accuracy**, demonstrating effective **flower species classification**.
+- Improved model generalization using **data augmentation**, reducing overfitting.
+- Successfully classified **five flower categories** using a **CNN-based deep learning model**.
+- Optimized training performance with **Adam optimizer** and **categorical cross-entropy loss**.
+- Visualized training progress with **accuracy/loss plots**, highlighting learning improvements.
