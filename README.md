@@ -1,63 +1,47 @@
-# Flower Image Classification with CNN and Data Augmentation
-This project demonstrates the use of Convolutional Neural Networks (CNNs) combined with data augmentation techniques to classify images of flowers into five distinct categories using TensorFlow and Keras.
+# 🌸 FloralVision - Flower Image Classification with CNN & Data Augmentation
 
-## Project Overview
-The objective is to build a robust image classifier capable of distinguishing between different species of flowers. By employing data augmentation, the model generalizes better to unseen data, enhancing its predictive performance.
+This project implements a **Convolutional Neural Network (CNN)** using **TensorFlow** and **Keras** to classify images of flowers into five categories. It incorporates **data augmentation** to enhance model generalization and improve classification accuracy.
 
-## Dataset
-The model is trained on a dataset comprising 3,670 images categorized into five classes:
+## 📌 Project Overview
 
-- Daisy
-- Dandelion
-- Roses
-- Sunflowers
-- Tulips
+The goal is to develop a **deep learning model** that can accurately classify flower species while leveraging data augmentation techniques to prevent overfitting.
 
-The dataset is publicly available and can be downloaded from the TensorFlow datasets repository.
+### 🌿 Dataset
 
-## Key Components
-- Data Loading: Utilizes tf.keras.utils.image_dataset_from_directory to efficiently load and preprocess images.
-- Data Augmentation: Applies random transformations such as flipping, rotation, and zooming to increase dataset variability and reduce overfitting.
-- Model Architecture: Constructs a CNN with multiple convolutional and pooling layers, followed by dense layers for classification.
-- Training: Compiles the model using the Adam optimizer and trains it with a categorical cross-entropy loss function.
-- Evaluation: Assesses model performance on a validation set and visualizes training history.
+The dataset consists of **3,670 images** of flowers categorized into five classes:
+- 🌼 Daisy  
+- 🌾 Dandelion  
+- 🌹 Roses  
+- 🌻 Sunflowers  
+- 🌷 Tulips  
 
-## Getting Started
-Prerequisites
--Python 3.x
--TensorFlow
--Keras
--Matplotlib
--NumPy
-Installation
-Clone the repository:
+The dataset is publicly available via **TensorFlow datasets**.
 
-bash
-Copy
-Edit
-git clone https://github.com/harmeetlotay96/tf_keras_cnn_flowers_classification.git
-Navigate to the project directory:
+### 🔑 Key Features
 
-bash
-Copy
-Edit
-cd tf_keras_cnn_flowers_classification
-Install the required packages:
+- **Data Loading:** Uses `tf.keras.utils.image_dataset_from_directory` for efficient dataset handling.
+- **Data Augmentation:** Applies flipping, rotation, and zooming to improve training robustness.
+- **CNN Architecture:** Builds a convolutional neural network with multiple layers for feature extraction.
+- **Training & Optimization:** Utilizes **Adam optimizer** and **categorical cross-entropy loss**.
+- **Evaluation & Visualization:** Assesses performance using a validation set and plots accuracy/loss trends.
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Ensure the dataset is available in the specified directory or modify the data loading path accordingly.
+---
 
-Run the Jupyter Notebook:
+## 🚀 Getting Started
 
-bash
-Copy
-Edit
-jupyter notebook flowers_image_augmentation_classification.ipynb
-Follow the notebook cells to train and evaluate the model.
+### 🔧 Prerequisites
 
-Results
-The model achieves an accuracy of approximately X% on the validation set, demonstrating effective classification capabilities enhanced by data augmentation techniques.
+Ensure you have the following installed:
+- Python 3.x
+- TensorFlow
+- Keras
+- Matplotlib
+- NumPy
+
+### 📥 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/harmeetlotay96/tf_keras_cnn_flowers_classification.git
+   ```
